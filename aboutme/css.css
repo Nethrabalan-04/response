@@ -1,0 +1,206 @@
+.box
+{
+    width: 1500px;
+    height: 750px;
+    margin: auto;
+    display: flex;
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: 1s;
+    
+
+  
+
+}
+.box:hover
+{
+    transform: scale(0.9);
+    transition: 1s;
+}
+.in1
+{
+    width: 750px;
+    height:750px ;
+    background-image: url(bg.jpg);
+    background-size: 210%;
+    row-gap: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.in2
+{
+    width: 750px;
+    height:750px ;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+body
+{
+    background-image: url(bg.jpg);
+    background-size: 110%;
+}
+.inbox
+{
+    width: 600px;
+    height: 600px;
+    background-color:rgba(0, 0, 0, 0.836) ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px magenta;
+}
+.dp
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+    border: 3px solid rgb(255, 255, 255);
+    animation: en 2s;
+}
+@keyframes en
+{
+    0%{transform: translateY(80px);}
+    25%{transform: translateY(40px);}
+    50%{transform: translateY(-40px);}
+    75%{transform: translateY(-20px);}
+    100%{transform: translateY(0px);}
+}
+.dp:hover
+{
+        border: 3px solid aqua;
+}
+.h1
+{
+    font-size: xx-large;
+    font-family: cursive;
+    color: aliceblue;
+    margin: auto;
+    animation: en 2.5s;
+}
+.hr
+{
+    width: 400px;
+    margin: auto;
+    display: block;
+    height: 1px;
+    animation: er 0.5s;
+}
+.text{
+    color: rgba(255, 255, 255, 0.349);
+    font-family:monospace;
+    font-size: xx-large;
+    margin: auto;
+    animation: en 3s;
+}
+.lbox
+{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+  
+    margin-top: 60px;
+}
+.logo:hover
+{
+    animation: rot 1s;
+   background-image: url(bg.jpg);
+   background-size: 200%;
+   border-radius: 20px;
+}
+@keyframes rot
+{
+    0%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+
+}
+.logo1{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+  
+    margin-top: 60px;
+}
+.logo1:hover
+{
+    animation: rot 1s;
+   background-image: url(bg.jpg);
+   background-size: 200%;
+   border-radius: 60px;
+}
+.box2in
+{
+    padding: 20px;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    display: block;
+
+}
+.h12
+{
+    font-size: 100px;
+    font-family:sans-serif;
+    color: aqua;
+    font-weight: bold;
+    display: inline;
+    text-shadow: 5px 5px 30px rgb(0, 153, 255);
+}
+.sy
+{
+    font-size: 100px;
+    color: magenta;
+    font-weight: bold;
+    display: inline;
+}
+.h3
+{
+    font-size:40px;
+    font-family:monospace;
+    color: rgb(255, 255, 255);
+}
+.p{
+color:rgb(8, 136, 255);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 21px;
+font-weight: 200px;
+
+}
+.button
+{
+    width: 200px;
+    height: 60px;
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: aqua;
+    border-radius: 30px;
+    transition: 1s;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family:monospace ;
+    border: 3px solid aqua;
+    box-shadow: 5px 5px 25px aqua;
+}
+.button:hover
+{
+    background-color: aqua;
+    border: 2px solid black;
+    color: black;
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 5px 5px 25px black;
+}
